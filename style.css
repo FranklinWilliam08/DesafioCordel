@@ -50,6 +50,10 @@ section{
     font-size: 3.5vw;
 }
 
+section > p{
+    padding-bottom: 1em;
+}
+
 section.normal{
     background-color: #fff;
     color:#000;
@@ -64,7 +68,16 @@ section.imagem > p{
     display: inline-block;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.147);
-    border-radius: 10px;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+#img01{
+  background-image: url('imagens/background001.jpg');
+}
+
+#img02{
+  background-image:url('imagens/background002.jpg') ;
 }
 
 .rodape{
